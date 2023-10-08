@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>maxlength</title>
+  <style>
+    input ,textarea{
+      display:block;
+      margin-bottom:10px;
+    }
+  </style>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>좋아하는 과일</legend>
+      <label>바나나
+        <input type="checkbox">
+      </label><br>
+      <label>사과
+        <input type="checkbox">
+      </label><br>
+      <label>오렌지
+        <input type="checkbox" checked>
+      </label><br>
+    </fieldset>
+  </form>
+  </body>
+  </html>
+----------------------------아래는 명시적------------------------
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>checked</title>
+</head>
+<body>
+  <form action="#">
+    <fieldset>
+      <legend>좋아하는 과일</legend>
+      <input type="checkbox" id="banana" name="banana" value="banana">
+      <label for="banana">banana</label><br>
+      <input type="checkbox" id="apple" name="apple" value="apple">
+      <label for="apple">apple</label><br>
+      <input type="checkbox" id="orange" name="orange" value="orange"  checked>
+      <label for="orange">orange</label><br>
+    </fieldset>
+  </form>
+</body>
+</html>
