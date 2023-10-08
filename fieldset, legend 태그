@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fieldset tag</title>
+</head>
+<body>
+  <form action ="#">
+    <fieldset>
+      <legend>기본정보</legend>
+      <p>
+        <label>아이디
+          <input type = "text">
+        </label>
+      </p>
+      <p>
+        <label>비밀번호
+          <input type = "password">
+        </label>
+      </p>
+    </fieldset>
+    <fieldset>
+    <legend>선택정보</legend>
+    <p>
+        <label>나이
+          <input type = "number">
+        </label>
+      </p>
+      <p>
+        <label>추천인
+          <input type = "text">
+        </label>
+      </p>
+    </fieldset>
+  </form>
+  </body>
+</html>
+    </fieldset>
+    
+  
+      
